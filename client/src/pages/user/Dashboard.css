@@ -1,0 +1,107 @@
+.upperLeft {
+  border: 2px solid lightgray;
+  width: 25vw;
+  height: 1000%;
+  background-color: white;
+  border-radius: 13px;
+  font-family: "Poppins";
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  padding: 10px;
+}
+
+.upperLeft > h4 {
+  text-align: center;
+}
+.left {
+  height: 100%;
+}
+
+.bottomLeft {
+  margin-top: 20px;
+  border: 2px solid lightgray;
+  width: 25vw;
+  height: 100%;
+  background-color: white;
+  border-radius: 13px;
+  font-family: "Poppins";
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  padding: 10px;
+}
+
+.bottomLeft > h4 {
+  text-align: center;
+}
+
+.botLeft {
+  margin-top: 20px;
+  border: 2px solid lightgray;
+  width: 25vw;
+  height: 100%;
+  background-color: white;
+  border-radius: 13px;
+  font-family: "Poppins";
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  padding: 10px;
+}
+
+.botLeft > h4 {
+  text-align: center;
+}
+
+.subjects {
+  padding: 5px;
+}
+.subject {
+  display: flex;
+  padding: 5px;
+  /* justify-content: space-between; */
+  transition: all ease-in-out 0.1s;
+}
+
+.subject:hover {
+  background-color: rgb(255, 251, 251);
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.badges {
+  display: flex;
+}
+
+.bottom {
+  display: flex;
+}
+
+.graph {
+  width: 75vw;
+  height: 95%;
+}

@@ -1,0 +1,68 @@
+.d_flex {
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.child {
+  flex: 1 0 49%;
+  margin: 5px;
+  max-width: 48vw;
+}
+
+.buyer-page {
+  background: url("https://media.istockphoto.com/id/1363960193/vector/ethical-leadership-help-colleague-to-succeed-and-reach-goal-achieve-target-mentorship.jpg?s=612x612&w=0&k=20&c=tyEScMvIpn07fMbKd2yAFQO-I67Cv-aCW_6E-MkNAWY=");
+}
+
+.buy_box {
+  background-color: white;
+  width: 300px;
+  margin-left: 250px;
+  height: 300px;
+  /* border: 1px solid white; */
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  padding: 5px;
+  color: black;
+}
+
+.buy_box > h5 {
+  margin-right: 70px;
+  margin-left: 10px;
+}
+
+.buy_box > p {
+  font-size: small;
+  font-weight: 400;
+  margin-left: 10px;
+}
+
+.buy-center {
+  align-self: center;
+}
+
+.center-title {
+  text-align: center;
+}
+
+.bg-white {
+  background-color: white;
+  color: black;
+}
+
+.landingImg {
+  width: 350px;
+  margin-left: -150px;
+  object-fit: contain;
+  margin-bottom: 200px;
+}
+
+.landingImg2 {
+  width: 350px;
+  margin-right: -150px;
+  object-fit: contain;
+  margin-bottom: 200px;
+}
