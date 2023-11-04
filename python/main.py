@@ -14,7 +14,7 @@ def index():
 def chatbot(subject, num):
     # question = request.form['question']
 
-    openai.api_key = ("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")
+    openai.api_key = ("---ENTER API KEY---")
 
     response = openai.Completion.create(
         model="text-davinci-003",
@@ -100,7 +100,7 @@ def flashcards(subject, num):
     numbers = num
     # question = request.form['question']
 
-    openai.api_key = ("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")
+    openai.api_key = ("---ENTER API KEY---")
 
     response = openai.Completion.create(
         model="text-davinci-003",
@@ -145,7 +145,7 @@ def flashcards(subject, num):
 @app.route('/placement/<subject>/')
 def generate_placement_test(subject):
 
-    openai.api_key = ("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")
+    openai.api_key = ("---ENTER API KEY---")
 
     prompt = f"Write a 5 question placement test with 4 multiple choice answers about {subject} to assess what grade level of skill they are in that subject. Have the answer displayed at the bottom in a format that is easy to parse using python using this format for the questions, 'Question (without the question number so it should only be Question:): <question>' and this format for the answer choices: 'Answer Choices: 'a)', 'b)', 'c)', 'd)''. Display all the answer choices on the same line. After every single question, print the correct answer using the format, 'Answer: 'a) xxx' "
 
