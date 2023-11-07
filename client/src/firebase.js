@@ -11,7 +11,7 @@ const firebaseConfig = {
   projectId: "growx-c1c6d",
   storageBucket: "growx-c1c6d.appspot.com",
   messagingSenderId: "93345830219",
-  appId: "1:93345830219:web:adb1c956e7591f1c8c44ce",
+  appId: "APP-KEY",
   measurementId: "G-VG66C7GV40",
 };
 
