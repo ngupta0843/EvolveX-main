@@ -11,8 +11,8 @@ dotenv.config();
 const transporter = nodemailer.createTransport({
   service: "hotmail",
   auth: {
-    user: "events_soccer3001@hotmail.com",
-    pass: "sb@AKhotmail11",
+    user: "USERNAME",
+    pass: "PASSWORD",
   },
 });
 
